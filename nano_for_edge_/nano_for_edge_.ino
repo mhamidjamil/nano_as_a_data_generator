@@ -24,7 +24,7 @@ void dataSender(int patient_number) {
     // temperature
     patient_1.print(random(35, 37));
     patient_1.print(".");
-    patient_1.print(random(1, 1000));
+    patient_1.print(random(1, 100));
     patient_1.print("!");
 
     // position
@@ -63,7 +63,7 @@ void dataSender(int patient_number) {
     // temperature
     patient_2.print(random(35, 37));
     patient_2.print(".");
-    patient_2.print(random(1, 1000));
+    patient_2.print(random(1, 100));
     patient_2.print("!");
 
     // position
