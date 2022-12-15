@@ -4,8 +4,8 @@
 
 SoftwareSerial patient_2(2, 3);
 void setup() {
-  Serial.begin(115200);
-  patient_2.begin(115200);
+  Serial.begin(9600);
+  patient_2.begin(9600);
 }
 void loop() {
 
